@@ -14,7 +14,7 @@ const Cart = ({product} ) => {
 
   return (
     <>       
-      <div className="cart-count text-white mr-3 mt-3 items-end">
+      <div className="cart-count__ text-white mr-3 mt-3 items-end">
           <div className="relative">
             <svg xmlns="http://www.w3.org/2000/svg" className="w-6 h-6 text-white" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
                 <circle cx="9" cy="21" r="1"></circle>

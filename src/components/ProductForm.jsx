@@ -93,7 +93,7 @@ function ProductForm({product}) {
         <div className="col-span-1 pb-2 pt-0 mb-2 grid justify-center mt-6 sm:w-1/2 sm:order-2">
           {product && product?.options && (
             <>
-              <div className="StorageCapacity__ mt-4">
+              <div className="storage-capacity__ mt-4">
                 <p>Storage capacity:</p>
                 {product?.options?.storages.map((storage, index) => (
                   <button
@@ -108,7 +108,7 @@ function ProductForm({product}) {
                  </button>
                 ))} 
               </div>
-              <div className="AvailableColors__ mt-4">
+              <div className="available-colors__ mt-4">
                 <p>Available in color:</p>
                 {product?.options?.colors.map((color, index) => (
                   <button
@@ -126,14 +126,14 @@ function ProductForm({product}) {
             </>
           )}
         </div>
-          <div className="addButtonCart__ text-center pb-2 lg:text-left lg:ml-8 lg:pb-4 lg:pl-20 sm:text-left sm:ml-8 sm:pb-4 sm:pl-20">
+          <div className="add-button-cart__ text-center pb-2 lg:text-left lg:ml-8 lg:pb-4 lg:pl-20 sm:text-left sm:ml-8 sm:pb-4 sm:pl-20">
             <button onClick={handleSubmit} 
             disabled={!isCapacityActive || !isColorActive}
             className="btn-form-add">
               Add to cart
             </button>
             {addedToCart && (
-              <div className="addToCartConfirmation__ text-black text-bold">
+              <div className="ad-to-cart-confirmation__ text-black text-bold">
                 <p>Your item has been added to the cart🎉</p>
               </div>
             )}

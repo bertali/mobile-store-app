@@ -15,7 +15,7 @@ function BreadCrumb({product}) {
 
   return (
       <>
-       <div className=""> 
+       <div className="breadcrumb__"> 
          <nav className="text-xs lg:text-base sm:text-base flex ml-6 mb-4 px-5 py-3 w-full h-auto bg-semiblack text-white" aria-label="Breadcrumb">
             <ol className="inline-flex items-center space-x-1 md:space-x-3">
                <li className="inline-flex items-center">
@@ -45,7 +45,7 @@ function BreadCrumb({product}) {
                               clipRule="evenodd">
                         </path>
                   </svg>
-                  <div className="ml-1 text- font-base text-white hover:text-blue-600 md:ml-2 dark:text-gray-400 dark:hover:text-white">
+                  <div className="brand-model__ ml-1 text- font-base text-white hover:text-blue-600 md:ml-2 dark:text-gray-400 dark:hover:text-white">
                     <ul>
                       <p>
                         {product.brand} - {product.model}

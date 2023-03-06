@@ -78,7 +78,7 @@ function ProductList({ searchTerm }) {
         </ul>
       </div>
       {showButton && (
-            <button className="bg-gray-700 text-white font-bold py-2 px-4 rounded fixed bottom-10 right-10" onClick={handleButtonClick}>
+            <button className="go-to-top-bt__ bg-gray-700 text-white font-bold py-2 px-4 rounded fixed bottom-10 right-10" onClick={handleButtonClick}>
               Go to top
             </button>
       )}
