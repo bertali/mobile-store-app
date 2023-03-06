@@ -7,7 +7,6 @@ import ProductForm from '../components/ProductForm.jsx';
 const DetailsViewComponent = ({product, setProduct}) => {
   const api = apiMobile();
   const location = useLocation();
-  console.log('*****',product)
   const { id } = location.state.product;
   console.log(id)
   const [isLoaded, setIsLoaded] = useState(false);

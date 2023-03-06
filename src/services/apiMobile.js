@@ -17,7 +17,6 @@ export const apiMobile = () => {
     };
 
     const post = async (itemData) => {
-        console.log('****', itemData)
         const res = await axios.post(urlCart, itemData);
         console.log(res);
         return res.data.count;

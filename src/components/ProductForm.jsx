@@ -55,7 +55,6 @@ function ProductForm({product}) {
       if (savedData) {
         try {
           itemDataJson = initialValue;
-          console.log("Im initila value",initialValue)
         } catch (err) {
           console.error("Error parsing savedData", err);
         }
