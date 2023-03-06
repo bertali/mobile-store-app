@@ -30,7 +30,7 @@ function ProductList({ searchTerm }) {
   );
 
   const handleScroll = () => {
-    if (window.scrollY > 200) { // Mostrar botón cuando se llegue a cierta altura
+    if (window.scrollY > 200) { 
       setShowButton(true);
     } else {
       setShowButton(false);
