@@ -66,7 +66,6 @@ function ProductForm({product}) {
 
     const localStorageTimestamp = Date.now();
     localStorage.setItem("lsTimestamp", localStorageTimestamp); 
-    console.log("Im localStorageTimestamp", localStorageTimestamp)
 
     await api.post(itemData);
 
